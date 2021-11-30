@@ -7,7 +7,7 @@ using Web_API_freeCodeCamp.Models;
 namespace Web_API_freeCodeCamp.Repositories
 {
 
-    public class InMemItemsRepository : IInMemItemsRepository
+    public class InMemItemsRepository : IItemsRepository
     {
         private readonly List<Item> items = new()
         {

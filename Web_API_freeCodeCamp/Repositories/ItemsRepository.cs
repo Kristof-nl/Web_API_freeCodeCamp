@@ -6,7 +6,7 @@ using Web_API_freeCodeCamp.Models;
 
 namespace Web_API_freeCodeCamp.Repositories
 {
-    public interface IInMemItemsRepository
+    public interface IItemsRepository
     {
         Item GetItem(Guid id);
         IEnumerable<Item> GetItems();
